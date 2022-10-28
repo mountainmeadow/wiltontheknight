@@ -1,0 +1,35 @@
+/*body*/
+body{
+    background-color: #A93F55;
+    margin: 10px;
+  padding: 5px;
+}
+
+/*main*/
+main{
+    margin: 0;
+    padding: 5px;
+    background-color: ghostwhite;
+}
+
+/*nav*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
