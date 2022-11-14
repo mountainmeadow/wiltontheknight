@@ -15,31 +15,32 @@ body{
 }
 
 /*main*/
-main{
+.index{
     margin: 0.6em;
     padding: 10px;
-    text-align: left;
     color: black;
     font-size: 15px;
-    text-align: left;
-    border-style: solid ;
-    border-color: #8D94BA;
+   
 }
 
-main h1{
+ .index section{
   text-align: center;
   margin: 0.6em;
   padding: 5px;
-  background-color: #AEC5EB ;
+  border-style: groove;
+  border-color:  #8D94BA;
   font-size: 20px;
 }
 
-main p{
+ .index p{
   text-align: center;
   
 }
 
-
+.indexlinks a {
+  text-decoration: none;
+  color: black;
+}
 
 /*footer*/
 footer{
