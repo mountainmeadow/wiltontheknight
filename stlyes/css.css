@@ -1,44 +1,79 @@
+html {
+    max-width: 950px;
+    margin: auto;
+      
+  }
+
 /*body*/
 body{
-    background-color: #A93F55;
+    background-color: whitesmoke;
+    max-width: 500em;
     margin: 10px;
   padding: 5px;
+  text-align: center;
+  color: black
 }
 
 /*main*/
 main{
-    margin: 0;
-    padding: 5px;
-    background-color: ghostwhite;
+    margin: 0.6em;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    border-style: solid ;
+    border-color: #8D94BA;
 }
 
+main h1{
+  text-align: center;
+  margin: 0.6em;
+  padding: 5px;
+  background-color: #AEC5EB ;
+  font-size: 20px;
+}
+
+main p{
+  text-align: center;
+  
+}
+
+
+
+/*footer*/
+footer{
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+ 
+ 
+
+}
 /*nav*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+
+nav{
+  text-align: center;
+}
+nav a {
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+  text-decoration: none;
+  color: black;
+  padding: 5px
+ 
+}
+a:hover {
+  background-color: #FFEBE7;
+}
+
+
+
+
 
   /*header*/
 header h1{
     text-align: center;
+    padding:5px;
 }
+
