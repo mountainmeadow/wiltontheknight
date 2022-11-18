@@ -37,7 +37,17 @@ body{
   
 }
 
-
+.become{
+  font-family: 'Cairo', sans-serif;
+  border: solid;
+  border-color: #7EBDC2;
+  margin: 0.6em;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  width: 900px;
+ 
+}
 
 /*footer*/
 footer{
